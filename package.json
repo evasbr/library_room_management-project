@@ -4,7 +4,7 @@
   "description": "Work period : 13 April 2024 - April 2024.",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "node index.js",
     "lint": "eslint ./"
   },
   "keywords": [],
@@ -12,9 +12,13 @@
   "license": "ISC",
   "dependencies": {
     "@prisma/client": "^5.12.1",
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.6",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
-    "joi": "^17.12.3"
+    "joi": "^17.12.3",
+    "jsonwebtoken": "^9.0.2",
+    "npm": "^10.7.0"
   },
   "devDependencies": {
     "eslint": "^8.57.0",
